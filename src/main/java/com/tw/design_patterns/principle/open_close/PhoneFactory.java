@@ -35,9 +35,9 @@ class ApplePhoneFactory extends PhoneFactory {
 class ProducerTest {
     @Test
     public void test() {
-        XiaoMiFactory xm = new XiaoMiFactory();
+        PhoneFactory xm = new XiaoMiFactory();
         xm.produce();
-        ApplePhoneFactory apple = new ApplePhoneFactory();
+        PhoneFactory apple = new ApplePhoneFactory();
         apple.produce();
     }
 }
